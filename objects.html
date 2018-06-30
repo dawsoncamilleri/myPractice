@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+    <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+        
+        input:invalid {
+    border: 2px solid red;
+}
+        
+        input:valid {
+    border: 2px solid green;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li id = 'menu1'></li>
+  <li id = 'menu2'></li>
+  <li id = 'menu3'></li>
+  <li id = 'menu4'></li>
+</ul>
+
+    
+ <p id = "texts">
+    </p>
+    
+    
+    
+    
+<!--    create objects-->
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <heading><h1>Create new</h1></heading>
+    <section>
+
+        <div id='newPerson'>
+           <h2>New obhects</h2>
+            <br><span>Full Name:</span><input type="text" id='name'><br><br>
+            <span>Email Address:</span><input type="email" id='email' required 
+><br><br>
+            <span>Age:</span><input type="text" id='age'><br><br>
+            <span>ID:</span><input type="text" id='id' pattern=".{5,15}" title = "Your password needs to be 5"><br><br>
+            <input type="submit" id='submit'>
+        </div>
+        <div id='allPersons'>
+            <h2 id='allPH'>Already Registered</h2>
+        </div>
+    </section>
+    
+    
+    
+</body>
+    <script src = "new1.js"> </script>
+        <script src = "objects.js"> </script>
+
+</html>

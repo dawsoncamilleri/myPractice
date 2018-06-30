@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+    <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li id = 'menu1'></li>
+  <li id = 'menu2'></li>
+  <li id = 'menu3'></li>
+  <li id = 'menu4'></li>
+</ul>
+
+   <form action="new1.html" method="post">
+ 
+     First name:<br>
+  <input type="text" name="firstname" id="firstname"  title="Please enter a valid email address"  >
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname"  id="lastname" title="Please enter a valid email address" required>
+  <br><br>
+    id:<br>
+  <input type="text" name="id"  id="id">
+  <br><br>
+    
+    <p id = "error"> </p>
+    
+       <label>Password: </label>
+    <input id='password' type="password">
+    <p style='display:none;' id='passWordErrMsg'></p><br><br>
+    <label>Confirm Password: </label>
+    <input id='passwordChck' type="password">
+    <p style='display:none;' id='passChckWordErrMsg'></p><br><br>
+        location:<br>
+        <input id='location' type="text">
+       <br>
+        <input type='submit'>
+
+    </form>
+</body>
+    <script src = "new1.js"> </script>
+        <script src = "validation.js"> </script>
+<!--            <script src = "objects.js"> </script>-->
+
+
+</html>

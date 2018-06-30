@@ -17,20 +17,18 @@ var pwd =  document.getElementById("password");
 var locationss =  document.getElementById("location");
 
 
-names.addEventListener('mouseout', function() {hi('firstname')});
-lastnames.addEventListener("mouseout", placeholder);
-lastnames.addEventListener("mouseout", function() {length(5,"lastname")});
-//idss.addEventListener("mouseout", ifempty);
-idss.addEventListener('mouseout', function() {ifempty('id')});
-names.addEventListener('mouseout', function() {ifempty('firstname')});
-lastnames.addEventListener('mouseout', function() {ifempty('lastname')});
-idss.addEventListener("mouseout", checkNumb);
-//document.getElementById("id").removeEventListener("mouseout", checkNumb);     // Fails
-idss.addEventListener("mouseout", checkNumb2);
-pwd.addEventListener("mouseout", checkpwd);
-pwd.addEventListener("focus", checkpwd2);
-pwd.addEventListener("mouseout", specialDig);
-locationss.addEventListener("mouseout", locationn);
+//names.addEventListener('mouseout', function() {hi('firstname')});
+//lastnames.addEventListener("mouseout", placeholder);
+//lastnames.addEventListener("mouseout", function() {length(5,"lastname")});
+//idss.addEventListener('mouseout', function() {ifempty('id')});
+//names.addEventListener('mouseout', function() {ifempty('firstname')});
+//lastnames.addEventListener('mouseout', function() {ifempty('lastname')});
+//idss.addEventListener("mouseout", checkNumb);
+//idss.addEventListener("mouseout", checkNumb2);
+//pwd.addEventListener("mouseout", checkpwd);
+//pwd.addEventListener("focus", checkpwd2);
+//pwd.addEventListener("mouseout", specialDig);
+//locationss.addEventListener("mouseout", locationn);
     
 //pwd.onmouseout = specialDig;
 

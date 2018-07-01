@@ -65,7 +65,15 @@ function checkNumb(){
 //     else if(elements != '' || elements != null){
 //        alert("write something2");
 //    }
-        elements2 = parseInt(elements);
+    
+    //        var elements2 = parseInt(elements);
+//        var elements3 = elements.toString();
+//        alert('ll' + typeof (elements3));
+//    if(typeof(elements3) == 'string'){
+//        alert('peace');
+//    }
+    
+        var elements2 = parseInt(elements);
 
     if(isNaN(elements2)){
         alert("this is not");

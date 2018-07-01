@@ -89,4 +89,19 @@ function openList1() {
 //
 //function bgc(){
 //    document.body.style.backgroundColor = 'red';
+
+//-------------------------------------------------
+//            document.body.style.backgroundColor = 'rgb(255,160,122)';
+//   var myElement = document.getElementById('bods');    
+//    
+//    if(myElement.style.backgroundColor == 'rgb(217, 54, 0)')
+//    {
+//        myElement.style.backgroundColor = "RGB(240, 128, 128)";
+//    }
+//    else
+//    {
+//        myElement.style.backgroundColor = "#D93600";
+//    }
 //}
+
+

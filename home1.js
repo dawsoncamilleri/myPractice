@@ -84,3 +84,9 @@ function openList1() {
 
     }
 }
+
+//document.getElementById("first").addEventListener("click", bgc);
+//
+//function bgc(){
+//    document.body.style.backgroundColor = 'red';
+//}
